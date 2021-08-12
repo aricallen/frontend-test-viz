@@ -1,4 +1,5 @@
 {
+  "ignorePatterns": "*.ts",
   "extends": ["airbnb-base", "prettier"],
   "plugins": ["prettier"],
   "env": {
