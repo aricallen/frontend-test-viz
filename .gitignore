@@ -1,8 +1,2 @@
 node_modules/
-dist/
-local/
-.env*
-.vscode/
-yarn-error.log
-data/
-logs/
+src/assets/solution/
