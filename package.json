@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "cd ./src && reload -b"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
@@ -16,9 +16,12 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-standard": "^5.0.0",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "reload": "^3.2.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "d3": "^7.0.0"
+  },
   "engines": {
     "node": ">=14"
   },
